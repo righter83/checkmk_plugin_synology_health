@@ -1,6 +1,8 @@
 # Synology Health - DSM 7 Monitoring Plugin for CheckMK 2.4
 
 This plugin enables monitoring of Synology NAS systems via the official DSM 7 Web API.
+We needed to use this instead of SNMP, because of latency and bandwidth problem of a NAS which is located on the other side of the world :-)
+
 <img width="1353" height="238" alt="image" src="https://github.com/user-attachments/assets/c8c3fae8-72df-43c4-8d13-20db2da3df94" />
 
 
