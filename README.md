@@ -132,6 +132,20 @@ The **Synology Disk** service monitors:
 | Swap Usage | 50% | - |
 | SSD Remaining Life | 20% | 10% |
 
+### Configuring Custom Thresholds
+
+You can customize thresholds for each check type:
+
+1. Go to **Setup → Services → Service monitoring rules**
+2. Search for "Synology" to find the available rules:
+   - **Synology Temperature** - System temperature thresholds
+   - **Synology Disk** - Disk temperature thresholds
+   - **Synology CPU** - CPU utilization thresholds
+   - **Synology Memory** - Memory utilization thresholds
+3. Create a new rule and set your desired warning/critical levels
+4. Optionally set conditions to apply only to specific hosts or items
+5. Save and activate changes
+
 ## Troubleshooting
 
 ### Test Agent Manually
@@ -222,6 +236,9 @@ MIT License
 Michael Righter
 
 ## Changelog
+
+### 1.3.0
+- added option to configure temperature alert values
 
 ### 1.2.0
 - initial public release
