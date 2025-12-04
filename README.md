@@ -237,6 +237,9 @@ Michael Righter
 
 ## Changelog
 
+### 1.3.1
+- fixed threshold crash
+
 ### 1.3.0
 - added option to configure temperature alert values
 
