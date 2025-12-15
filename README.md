@@ -237,6 +237,9 @@ Michael Righter
 
 ## Changelog
 
+### 1.4.0
+- fixed same usage of synology_health
+
 ### 1.3.1
 - fixed threshold crash
 
